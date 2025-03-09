@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de DEGANAYE Gaelle Sophie">
+    <title>Portfolio - DEGANAYE Gaelle Sophie</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .accueil {
+            display: flex;
+            align-items: center;
+        }
+        .accueil img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .form_group {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="accueil" class="accueil">
+            <div class="image_item">
+                <img src="gaga.jpg" alt="Photo de profil" width="300" height="300">
+            </div>
+            <div class="accueil_text">
+                <h1>DEGANAYE Gaelle Sophie</h1>
+                <p>My name is Gaëlle, and I am the President of the English Club here at IST Ouaga 2000. I have a deep passion for the English language, and I believe it is an essential tool for communication in today’s world.
+
+                    The English Club at IST Ouaga 2000 provides a platform for students to practice English, engage in cultural exchanges, and participate in a range of activities that promote learning and personal growth. Whether it’s through debates, language workshops, or movie nights, we aim to create a welcoming environment where everyone can improve their skills and enjoy the process..</p>
+            </div>
+        </section>
+        
+        <section id="competences" class="competences">
+            <h2>Compétences</h2>
+            <ul>
+                <li>Leadership Skills 🏆</li>
+                <li>English Language Skills 📚</li>
+                <li>Habilidades en Español 🇪🇸</li>
+                <li>Computer Science Skills 💻</li>
+            </ul>
+        </section>
+        
+        <section id="projets" class="projets">
+            <h2>Projets</h2>
+            <div class="projet_item">
+                <img src="lead.jpg" alt="Project of Leadership" width="200" height="200">
+                <h3>Leadership Development</h3>
+                <p>Team Management, Decision-Making,CommunicationConflict Resolution.  </p>
+                    
+            </div>
+            <div class="projet_item">
+                <img src="eng.jpg" alt="Project of English Language" width="200" height="200">
+                <h3>Promotion of English</h3>
+                <p>Organization of debates and events to improve English proficiency.</p>
+            </div>
+            <div class="projet_item">
+                <img src="ss.jpg" alt="Computer Project" width="200" height="200">
+                <h3>Computer Development</h3>
+                <p>Database Design and Network Administration.</p>
+            </div>
+        </section>
+        
+        <section id="apropos" class="apropos">
+            <h2>about</h2>
+            <p>Passionate about communication and new technologies, I actively engage in leadership and language learning</p>
+        </section>
+        
+        <section id="contact" class="contact">
+            <h2>Contact me</h2>
+            <form>
+                <div class="form_group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form_group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form_group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form_group">
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 - All rights reserved | DEGANAYE Gaelle Sophie/American speaker</p>
+    </footer>
+</body>
+</html>
